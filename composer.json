@@ -1,0 +1,30 @@
+{
+    "name": "ggarcia24/zfc-user-ldapdapter",
+    "description": "LDAP Adapter for ZFCUser",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "ldap",
+        "zfc-user"
+    ],
+    "homepage": "https://github.com/ggarcia24/ZfcUserLDAPAdapter",
+    "authors": [
+        {
+            "name": "Gonzalo Garcia",
+            "email": "gonzalogarcia243@gmail.com",
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-base": "dev-master",
+        "zf-commons/zfc-user": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfcUserLDAPAdapter\\": "src/"
+        }
+    }
+}
